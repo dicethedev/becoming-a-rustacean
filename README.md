@@ -1,6 +1,6 @@
 # 🦀 Rust Learning Journey
 
-This repo documents my step-by-step progress as I learn Rust by building small projects and exploring core concepts.s
+This repo documents my step-by-step progress as I learn Rust by building small projects and exploring core concepts.
 
 ## 🛠 Tech
 - Rust (latest stable)
