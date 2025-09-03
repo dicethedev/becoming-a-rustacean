@@ -12,25 +12,25 @@ fn main() {
 //result: 7 is odd
 
 //Retry loop(real use case)
-fn main() {
-    let mut attempts = 0;
+// fn main() {
+//     let mut attempts = 0;
 
-    loop {
-        attempts += 1;
-        println!("Attempt {attempts}: connecting...");
+//     loop {
+//         attempts += 1;
+//         println!("Attempt {attempts}: connecting...");
 
-        // Fake success on attempt 2
-        if attempts == 2 {
-            println!("✅ Connected successfully!");
-            break;
-        }
+//         // Fake success on attempt 2
+//         if attempts == 2 {
+//             println!("✅ Connected successfully!");
+//             break;
+//         }
 
-        if attempts >= 3 {
-            println!("❌ Failed to connect after {attempts} attempts.");
-            break;
-        }
-    }
-}
+//         if attempts >= 3 {
+//             println!("❌ Failed to connect after {attempts} attempts.");
+//             break;
+//         }
+//     }
+// }
 // Attempt 1: connecting...
 // Attempt 2: connecting...
 // ✅ Connected successfully!
@@ -39,9 +39,9 @@ fn main() {
 
 
 //Count down with for statement
-fn main() {
-    for second in (1..=5).rev() {
-        println!("Launching in {second}...");
-    }
-    println!("🚀 LIFTOFF!");
-}
+// fn main() {
+//     for second in (1..=5).rev() {
+//         println!("Launching in {second}...");
+//     }
+//     println!("🚀 LIFTOFF!");
+// }
